@@ -1,4 +1,8 @@
-This is your new Play application
+Nitro-Challenge in Play
 =====================================
 
-This file will be packaged with your application, when using `play dist`.
+This is the nitro challenge built in the Play framework. 
+Clone into the repo and start up the Play server to check out the challenges.
+
+Part 1 of the challenge is viewed at: /part-1
+Part 2 of the challenge is viewed at: /part-2
