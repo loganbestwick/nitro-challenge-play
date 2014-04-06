@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/styles1.css">
+</head>
+<body>
+	<div id="header-collapse" class="hidden">
+		<div class="container">
+			<img src="/assets/images/nitro-logo.png">
+			<p>Your score is in:</p>
+			<h3>Liquid Cooled</h3>
+			<p>Stress Level at work:</p>
+			<h2>15%</h2>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<img id="wires" src="/assets/images/wires.png">
+			<div id="header-content">
+				<div class="col-md-7">
+					<img src="/assets/images/nitro-logo.png">
+					<p id="your-score">Your score is in:</p>
+					<h3>Liquid Cooled</h3>
+					<p id="score-description">You've got things on lock this week. Sweet. Enjoy the good times, and should the going
+						get tough, look for ways to increase efficiency and productivity.</p>
+				</div>
+				<div class="col-md-5">
+					<img src="/assets/images/smiley-face.png">
+					<div id="stress-level">
+						<p>Stress Level at work:</p>
+						<h2>15%</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<section id="shirt-claim">
+		<div class="container">
+			<div id="shirt-mobile">
+				<img id="shirt-image" src="/assets/images/shirt.png">
+				<h3>Tell us where to send your free shirt!</h3>
+			</div>
+			<div class="col-md-6">
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="col-sm-3 control-label">First Name</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" name="firstname">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Last Name</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" name="lastname">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Street Address</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" name="address1" placeholder="ex: 1234 Street Name">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Address line 2</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" name="address2" placeholder="ex: Apartment 1">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">State</label>
+						<div class="col-sm-9 input-small">
+							<input type="text" class="form-control" name="state">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Postcode</label>
+						<div class="col-sm-9 input-small">
+							<input type="text" class="form-control" name="postcode">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Size</label>
+						<div class="col-sm-9 styled-select">
+							<select class="form-control">
+								<option>Small</option>
+								<option>Medium</option>
+								<option>Large</option>
+								<option>X-Large</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-3 control-label">Email address</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" name="email" placeholder="email&#64;email.com">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-3 col-sm-9">
+							<button type="submit" class="btn btn-default button-style">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div id="shirt-desktop" class="col-md-6">
+				<img id="arrow-image" src="/assets/images/arrow.png">
+				<img id="shirt-image" src="/assets/images/shirt.png">
+				<h3>Tell us where to send your free shirt!</h3>
+			</div>
+		</div>
+	</section>
+
+	<section id="chart-display">
+		<div class="container">
+			<h3 class="charts-head">Compare your answers to other IT Managers:</h3>
+			<div class="col-md-6">
+
+				<div class="chart-box">
+					<h3>Daily Password Resets:</h3>
+					<table>
+						<tr>
+							<td>1</td>
+							<td class="key-black"></td>
+						</tr>
+						<tr>
+							<td>2-9</td>
+							<td class="key-white"></td>
+						</tr>
+						<tr>
+							<td>10-19</td>
+							<td class="key-dark-green"></td>
+						</tr>
+						<tr>
+							<td>20+</td>
+							<td class="key-green"></td>
+						</tr>
+					</table>
+					<img src="/assets/images/password-chart.png">
+				</div>
+
+				<div class="chart-box">
+					<h3>Weekly Software Issues:</h3>
+					<table>
+						<tr>
+							<td>1-9</td>
+							<td class="key-black"></td>
+						</tr>
+						<tr>
+							<td>10-19</td>
+							<td class="key-white"></td>
+						</tr>
+						<tr>
+							<td>20-29</td>
+							<td class="key-dark-green"></td>
+						</tr>
+						<tr>
+							<td>30+</td>
+							<td class="key-green"></td>
+						</tr>
+					</table>
+					<img src="/assets/images/software-chart.png">
+				</div>
+
+				<div class="chart-box">
+					<h3>Thought "This SHOULD be working"</h3>
+					<table>
+						<tr>
+							<td>0-3</td>
+							<td class="key-black"></td>
+						</tr>
+						<tr>
+							<td>4-7</td>
+							<td class="key-white"></td>
+						</tr>
+						<tr>
+							<td>8-11</td>
+							<td class="key-dark-green"></td>
+						</tr>
+						<tr>
+							<td>12+</td>
+							<td class="key-green"></td>
+						</tr>
+					</table>
+					<img src="/assets/images/working-chart.png">
+				</div>
+
+			</div>
+
+			<div class="col-md-6">
+
+				<div class="chart-box">
+					<h3>Internet Outage This Week:</h3>
+					<table class="chart-key-2">
+						<tr>
+							<td>Yes</td>
+							<td class="key-white"></td>
+						</tr>
+						<tr>
+							<td>No</td>
+							<td class="key-green"></td>
+						</tr>
+					</table>
+					<img src="/assets/images/outage-chart.png">
+				</div>
+
+				<div class="chart-box">
+					<h3>Are Often Offered Thanks</h3>
+					<table class="chart-key-2">
+						<tr>
+							<td>Yes</td>
+							<td class="key-white"></td>
+						</tr>
+						<tr>
+							<td>No</td>
+							<td class="key-green"></td>
+						</tr>
+					</table>
+					<img src="/assets/images/thanks-chart.png">
+				</div>
+
+				<div class="chart-box">
+					<h3>Daily Document Conversions</h3>
+					<table>
+						<tr>
+							<td>0</td>
+							<td class="key-black"></td>
+						</tr>
+						<tr>
+							<td>1-5</td>
+							<td class="key-white"></td>
+						</tr>
+						<tr>
+							<td>6-9</td>
+							<td class="key-dark-green"></td>
+						</tr>
+						<tr>
+							<td>10+</td>
+							<td class="key-green"></td>
+						</tr>
+					</table>
+					<img src="/assets/images/document-chart.png">
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="col-md-8">
+				<p>&copy; Nitro Software, Inc. | +1.415.651.4700 | 225 Bush St., Suite 700 | San Francisco, CA 94104, USA</p>
+				<p>All rights reserved. Various trademarks held by their respective owners.</p>
+				<a href="">Site Map</a> | <a href="">Privacy Policy</a> | <a href="">Copyright Policy</a>
+				 | <a href="">End User License Agreement</a> | <a href="">Refund Policy</a>
+			</div>
+			<div class="col-md-4">
+				<ul>
+					<li><a href=""><img src="/assets/images/facebook.png"></a></li>
+					<li><a href=""><img src="/assets/images/twitter.png"></a></li>
+					<li><a href=""><img src="/assets/images/linkedin.png"></a></li>
+					<li><a href=""><img src="/assets/images/google.png"></a></li>
+					<li><a href=""><img src="/assets/images/youtube.png"></a></li>
+					<li><a href=""><img src="/assets/images/instagram.png"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="/assets/javascripts/part-1.js"></script>
+</body>
+</html>

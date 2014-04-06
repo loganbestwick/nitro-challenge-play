@@ -1,0 +1,172 @@
+html {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	height: 1380px;
+	width: 800px;
+	margin: 0 auto;
+}
+
+/****HEADER****/
+
+header {
+	height: 240px;
+	width: inherit;
+	background: #302e2d url("../images/cables.png") no-repeat;
+	color: white;
+	display: inline-block;
+}
+
+header img {
+	padding: 25px 0 0 100px;
+}
+
+header h2, h4 {
+	margin: 0 0 0 80px;
+	text-align: center;
+}
+
+header h2 {
+	height: 50px;
+	width: 596px;
+	line-height: 50px;
+	background-color: #f6562c;
+	font-weight: 100;
+	font-size: 36px;
+}
+
+header h4 {
+	height: 30px;
+	width: 122px;
+	line-height: 30px;
+	background-color: #302e2d;
+	margin-top: 70px;
+}
+
+/****MESSAGE****/
+
+#message {
+	height: 750px;
+	font-family: "Arial", sans-serif;
+	color: #5d5d5d;
+}
+
+#message p {
+	margin: 0 100px 20px 100px;
+	line-height: 27px;
+}
+
+#message p:first-child {
+	padding-top: 40px;
+}
+
+#event-details-container {
+	height: 216px;
+	width: inherit;
+	background-color: #e1ece7;
+	margin: 30px 0 30px 0;
+}
+
+#event-details-container h3 {
+	background-color: #05cf78;
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	line-height: 48px;
+	width: 700px;
+	margin: 0;
+	position: absolute;
+	padding-left: 100px;
+}
+
+#event-details-container img {
+	position: relative;
+	padding-top: 20px;
+	float: right;
+	margin-right: 100px;
+}
+
+#event-specifics {
+	word-wrap: break-word;
+	display: inline-block;
+	width: 370px;
+	margin: 60px 0 0 100px;
+}
+
+#event-specifics tr {
+	height: 25px;
+}
+
+#message hr {
+	width: 600px;
+	height: 2px;
+	margin: 0 auto;
+	background-color: #e1ece7;
+	border: 0;
+}
+
+/****MESSAGE FOOTER****/
+
+#message-footer {
+	text-align: center;
+}
+
+#message-footer h3 {
+	color: #5d5d5d;
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top: 15px;
+}
+
+#message-footer a {
+	color: #05cf78;
+	font-size: 20px;
+	text-decoration: none;
+	height: 20px;
+}
+
+/****FOOTER****/
+
+footer {
+	height: 390px;
+	width: inherit;
+	background-color: #302e2d;
+	text-align: center;
+}
+
+#made-in-aus {
+	height: 180px;
+	background: url("../images/aus-map.png")no-repeat center;
+}
+
+#made-in-aus h3 {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 75px;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+footer li {
+	width: 80px;
+	display: inline-block;
+	text-align: center;
+}
+
+footer p {
+	color: #9b9b9b;
+	font-size: 12px;
+	margin: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #009ecb;
+}
